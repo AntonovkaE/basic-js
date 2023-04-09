@@ -1,6 +1,6 @@
 const { CONSTANTS } = require('./constants.js');
 
-const { SPECIAL_PROP_VALUE } = CONSTANTS;
+const { SPECIAL_PROP_VALUE, CORRECT_RESULT_MSG } = CONSTANTS;
 
 class NotImplementedError extends Error {
     constructor(message) {
@@ -9,6 +9,7 @@ class NotImplementedError extends Error {
     }
 };
 
+
 module.exports = {
-    NotImplementedError
+    NotImplementedError,
 };
