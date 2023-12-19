@@ -26,7 +26,6 @@ class VigenereCipheringMachine {
     this.code_abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
-
   encrypt(str, key) {
     this.validate(str, key);
     return this.crypt(str, key, true)
